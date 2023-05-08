@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.FashionDesigner{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+.color_scheme{
+    flex-direction: column;
+}
+.general{
+    width: 50px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.general:hover{
+    border: 3px solid red;
+}
+
+
+.flyer{
+    background-image: url(./images/flyer.jpg);
+    width: 1080px;
+    height: 1080px;
+    margin: 10px;
+    display: flex;
+}
+
+
+.logo{
+    margin-top: 82px;
+    margin-left: 49px;
+}
+.writings{
+    margin-left: 49px;
+}
+.upgrade{
+    width: 496.63px;
+    height: 125px;  
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33.8128px;
+    line-height: 43px;
+    text-transform: uppercase; 
+    color: #F2C672; 
+}
+.spanin{
+    font-weight: 100;
+}
+.circle{
+    margin-top: 89px;
+    margin-left: 9px;
+    width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    background-color: white;
+}
+.back_mens{
+    width: 310px;
+    height: 310px;
+    border-radius: 155px;
+    background-color: darkslategrey;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.mens{
+    margin-top: 80px;
+    margin-left: 10px;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-size: 37.3142px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F2C672;
+}
+.back_deliver{ 
+    margin-top: 120px;
+    width: 238.28px;
+    height: 79.01px;
+    background: #F2C672;
+    border-radius: 13.0073px;
+}
+.deliver{
+    color: rgba(10, 35, 50, 1);
+    width: 223px;
+    height: 66px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.0145px;
+    line-height: 33px;
+    text-align: center;
+}
+span{
+    text-transform: uppercase;
+}
+
+.first{
+    position: absolute;
+    left: 590px;
+    top: 250px;
+}
+.second{
+    position: absolute;
+    left: 950px;
+    top: 300px;
+}
+.third{
+    position: absolute;
+    left: 650px;
+    top: 610px;
+}
+.fourth{
+    position: absolute;
+    left: 950px;
+    top: 610px;
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+}
+.to_connect{
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    position: absolute;
+    left: 900px;
+    top: 910px;
+}
+.insta{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    padding: 10px;
+}
